@@ -43,6 +43,7 @@
 		
 		<div id="section_one">
 			<div class="container">
+			
 				<div id="about">
 					Adventur.es identifies problems to tackle and looks for those who share our passion to create change.
 					Together we walk the path, giving individuals the autonomy to focus, experiment, and fail, ultimately leading to learning and long-term success.
