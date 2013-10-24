@@ -1,16 +1,8 @@
 <?php
-
 	$name = $_POST['name'];
-	$name = mysql_real_escape_string($name);
-	
 	$phone = $_POST['phone'];
-	$phone = mysql_real_escape_string($phone);
-
 	$email = $_POST['email'];
-	$email = mysql_real_escape_string($email);
-	
 	$message = $_POST['message'];
-	$message = mysql_real_escape_string($message);
 	
 
     $from = "info@stockcast.it";
@@ -21,7 +13,6 @@
 
     		<p>Message: ".$message."</p>";
     	
-
 
     include_once('ses.php');
     $con=new SimpleEmailService("AKIAIMMFQYYH2ARYVZUA","np46qEKPdUWjrDmakBmmPrpVDKmssGVLBiB7IBQ7");

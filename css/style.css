@@ -23,7 +23,7 @@ textarea{ resize:vertical; }
 }  /* must be same height as the footer */
 
 h1, h2, h3, h4, h5, h6 {
-	color: #efc01d;
+	color: #f0c21d;
 	font-weight: 100;
 }
 
@@ -76,7 +76,7 @@ a:hover{
 }
 
 #myfort{
-background-color: black;
+	background-color: black;
     background-image: url("../img/picture1.jpg");
     background-repeat: repeat-x;
 	height: 530px;
