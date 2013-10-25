@@ -250,3 +250,53 @@ input[type="submit"]:hover{
 .tooltip div{
 	margin-bottom: 20px
 }
+
+
+@media (min-width: 768px) and (max-width: 979px) {
+#about{
+	padding-top: 40px;
+}
+.company{
+	width: 180px;
+}
+
+}
+
+
+@media (max-width: 767px) {
+#top_background, #top_overlay{
+	position: absolute;
+	
+}
+#logo, #slogan{
+	margin-left: 10px;
+}
+#about{
+	font-size: 14pt;
+	padding-top: 50px;
+}
+
+hr{
+ opacity: 0.3;
+}
+
+#section_two{
+	height: 1000px;
+}
+
+#myfort{
+	top:1920px;
+}
+
+#section_four{
+	top:2620px;
+	height: 700px;
+}
+#contact_desc, #contact-form{
+	padding: 0px 10px;
+	
+}
+#contact_desc{
+	font-size: 14pt;
+}
+}

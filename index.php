@@ -7,7 +7,7 @@
     <!-- Bootstrap -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <!-- <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen"> -->
+    <link href="css/bootstrap-responsive.css" rel="stylesheet" media="screen">
     <link href="css/new-style.css" rel="stylesheet" media="screen">
     
     <!-- Asynchronous Google Analytics: mathiasbynens.be/notes/async-analytics-snippet -->
