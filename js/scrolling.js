@@ -45,6 +45,18 @@ function parallaxScroll(){
 	var scrolled = $(window).scrollTop();
 	    $("#top_overlay").css("position", "fixed");
         $("#top_background").css("position", "fixed");
+        
+        
+    if(scrolled >= 0 && scrolled < 100){
+    	var arrow_opac = (100-scrolled)/100;
+ 	    $("#downarrow").css("opacity", arrow_opac);
+   	
+    }else if (scrolled < 0){
+	    $("#downarrow").css("opacity", 1);
+    }else{
+	    $("#downarrow").css("opacity", 0);
+    }
+        
 	if(scrolled >= 0 && scrolled < 700){
 		
 		var overlay_opac = (65+(35-((700-scrolled)/20)))/100;

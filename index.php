@@ -37,6 +37,11 @@
 					<div id="slogan">
 						Solve Problems. Transform the World.
 					</div>
+					
+					<div id="downarrow">
+						scroll<br>
+						<i id="down" class='icon-chevron-down'></i>
+					</div>
 				</div>
 			</div>
 		</div>

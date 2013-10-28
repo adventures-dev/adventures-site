@@ -52,6 +52,18 @@ html, body {height: 100%;}
 	font-weight:lighter;
 	font-family: 'MavenProLight', sans-serif;
 }
+#downarrow{
+	margin-top: 300px;
+	font-size: 14pt;
+	opacity: 1;
+	color: white;
+	font-weight:lighter;
+	font-family: 'MavenProLight2', sans-serif;
+	text-align: center;
+}
+#down{
+	font-size: 30pt !important;
+}
 #section_four{
 	height: 600px;
 	position: absolute;
@@ -264,16 +276,29 @@ input[type="submit"]:hover{
 
 
 @media (max-width: 767px) {
+#downarrow{
+	display: none;
+}
 #top_background, #top_overlay{
 	position: absolute;
+	height: 450px
 	
 }
+
+#section_one{
+	top: 450px;
+}
+#section_two{
+	top: 670px;
+}
+
 #logo, #slogan{
 	margin-left: 10px;
 }
 #about{
-	font-size: 14pt;
+	font-size: 12pt;
 	padding-top: 50px;
+	line-height: 25px;
 }
 
 hr{
@@ -285,11 +310,11 @@ hr{
 }
 
 #myfort{
-	top:1920px;
+	top:1670px;
 }
 
 #section_four{
-	top:2620px;
+	top:2370px;
 	height: 700px;
 }
 #contact_desc, #contact-form{
