@@ -194,10 +194,10 @@ html, body {height: 100%;}
   }
 #about{
 	text-align: center;
-	padding-top: 60px;
+	padding-top: 35px;
 	font-family: 'MavenProLight2', sans-serif;
 	font-weight:normal;
-	font-size: 18pt;	
+	font-size: 14pt;	
 }
 
 #contact{
@@ -263,10 +263,15 @@ input[type="submit"]:hover{
 	margin-bottom: 20px
 }
 
-
+@media (min-width: 1200px){
+	#about{
+	padding-top: 40px;
+	font-size: 16pt;
+	}
+}
 @media (min-width: 768px) and (max-width: 979px) {
 #about{
-	padding-top: 40px;
+	padding-top: 20px;
 }
 .company{
 	width: 180px;
@@ -297,8 +302,8 @@ input[type="submit"]:hover{
 }
 #about{
 	font-size: 12pt;
-	padding-top: 50px;
-	line-height: 25px;
+	padding-top: 25px;
+	line-height: 35px;
 }
 
 hr{
@@ -324,4 +329,13 @@ hr{
 #contact_desc{
 	font-size: 14pt;
 }
+}
+
+@media (max-width: 568px) {
+#about{
+	font-size: 10pt;
+	padding-top: 35px;
+	line-height: 25px;
+}
+
 }

@@ -50,8 +50,7 @@
 			<div class="container">
 			
 				<div id="about">
-					Adventur.es identifies problems to tackle and looks for those who share our passion to create change.
-					Together we walk the path, giving individuals the autonomy to focus, experiment, and fail, ultimately leading to learning and long-term success.
+					Adventur.es is a venture capital and private equity firm based in Columbia, Mo., that co-founds and acquires businesses, providing capital, strategic planning, operational support, and relationship development. Having started or invested in more than 20 businesses, adventur.es understands the unique challenges at each stage of entrepreneurship and works with every portfolio company to maximize its value.  
 				</div>
 			</div>
 		</div>
