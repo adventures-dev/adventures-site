@@ -27,6 +27,33 @@
   
   
   <body>
+  
+  	<!-- Modal -->
+<div class="modal fade" id="criteria" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Acquisition Criteria </h4>
+      </div>
+      <div class="modal-body">
+        <ol>
+        	<li>Consistent earnings between $500,000 and $5 million.</li>
+        	<li>Stable and diversified client base.</li>
+        	<li>Healthy layer of non-owner management.</li>
+        	<li>Closely held ownership looking to retire.</li>
+        
+        </ol>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+  
+  
+  
 	<div id="wrap">
 		<div id="top_background">
 			<div id="top_overlay">
@@ -41,6 +68,50 @@
 					<div id="downarrow">
 						scroll<br>
 						<i id="down" class='icon-chevron-down'></i>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="featured_section">
+			<div class="container">
+				<div class="row-fluid">
+				
+					<div class="span2 offset1">
+						<div class="feature_wrapper">
+							<div class="feature" id="feature1">
+								<a target="_blank" href="http://www.inc.com/profile/adventures"><img src="img/inc.png"></a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="span2">
+						<div class="feature_wrapper">
+							<div class="feature" id="feature2">
+								<a target="_blank" href="http://www.forbes.com/sites/brentbeshore/"><img src="img/forbes.png"></a>
+							</div>
+						</div>
+					</div>
+					<div class="span2">
+						<div class="feature_wrapper">
+							<div class="feature" id="feature3">
+								<a target="_blank" href="http://www.mochamber.com/mx/hm.asp?id=112111fasttrackadventures"><img src="img/missouricc.png"></a>
+							</div>
+						</div>
+					</div>
+					<div class="span2">
+						<div class="feature_wrapper">
+							<div class="feature" id="feature4">
+								<a target="_blank" href="http://articles.washingtonpost.com/2012-05-08/business/35457018_1_business-books-innovation-vacation"><img src="img/washingtonpost.png"></a>
+							</div>
+						</div>
+					</div>
+					<div class="span2">
+						<div class="feature_wrapper">
+							<div class="feature" id="feature5">
+								<a target="_blank" href="http://www.vh1.com/shows/events/do_something_awards/2011/facebook/"><img src="img/dosomething.png"></a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -150,7 +221,7 @@
 									<div class="row-fluid">
 										<div class="span6">
 										
-										<p id="contact_desc">Does it seem like we're talking about you? If so, ping us, and let's talk. Or if you have questions, comments, or opportunities, let us know.</p>
+										<p id="contact_desc">We're always on the lookout for great people and worthwhile opportunities. <a href="#criteria" data-toggle="modal" data-target="#criteria">Here's our criteria for acquisitions.</a></p>
 			
 											
 										</div>
@@ -323,6 +394,9 @@ $("#contact-form").validate({
 	<script>
 	$('.tool').tooltip("toggle");
 		$('.tool').tooltip("toggle");
+		
+		
+		
 	</script>
   </body>
   
