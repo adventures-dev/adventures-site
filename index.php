@@ -140,7 +140,7 @@
 						<div class="company_wrapper">
 							
 							<div class="company" id="agencypost">
-								<a href="http://www.agencypost.com" class="tool" data-toggle="tooltip" title="The Agency Post is an interactive publication for ad, PR and marketing professionals. All content is written by subject matter experts, consumable in under five minutes and customized to be applicable to your daily life in the marketing world."><img src="img/agencypost-white.png"></a>
+								<a href="http://www.agencypost.com" target="_blank" class="tool" data-toggle="tooltip" title="The Agency Post is an interactive publication for ad, PR and marketing professionals. All content is written by subject matter experts, consumable in under five minutes and customized to be applicable to your daily life in the marketing world."><img src="img/agencypost-white.png"></a>
 							</div>
 						</div>
 						
@@ -148,14 +148,14 @@
 					<div class="span4">
 						<div class="company_wrapper">
 							<div class="company" id="remarkables">
-								<a href="http://www.theremarkabl.es" class="tool" data-toggle="tooltip" title="Enables communities to have life-changing moments by connecting them with remarkable people."><img src="img/remarkables-white.png"></a>
+								<a href="http://www.theremarkabl.es" target="_blank" class="tool" data-toggle="tooltip" title="Enables communities to have life-changing moments by connecting them with remarkable people."><img src="img/remarkables-white.png"></a>
 							</div>
 						</div>
 					</div>
 					<div class="span4">
 						<div class="company_wrapper" >
 							<div class="company" id="influenceandco">
-								<a href="http://www.influenceandco.com" class="tool" data-toggle="tooltip" title="Curates expert content for the nation's largest online publishers."><img src="img/influenceandco-white.png"></a>
+								<a href="http://www.influenceandco.com" target="_blank" class="tool" data-toggle="tooltip" title="Curates expert content for the nation's largest online publishers."><img src="img/influenceandco-white.png"></a>
 							</div>
 						</div>
 					</div>
@@ -164,7 +164,7 @@
 					<div class="span4">
 						<div class="company_wrapper">
 							<div class="company" id="mediacross">
-								<a href="http://www.mediacross.com" class="tool" data-toggle="tooltip" title="Uses propriety methods to help the U.S. military, state governments, businesses and organizations advertise, market, and recruit."><img src="img/mediacross-white.png"></a>
+								<a href="http://www.mediacross.com" target="_blank" class="tool" data-toggle="tooltip" title="Uses propriety methods to help the U.S. military, state governments, businesses and organizations advertise, market, and recruit."><img src="img/mediacross-white.png"></a>
 							</div>
 						</div>
 						
@@ -172,14 +172,14 @@
 					<div class="span4">
 						<div class="company_wrapper">
 							<div class="company" id="chimaeric">
-								<a href="http://www.chimaeric.com" class="tool" data-toggle="tooltip" title="Makes stories come to life by cultivating visually stunning and emotionally engaging works using the latest digital cinema technology."><img src="img/chimaeric-white.png"></a>
+								<a href="http://www.chimaeric.com" target="_blank" class="tool" data-toggle="tooltip" title="Makes stories come to life by cultivating visually stunning and emotionally engaging works using the latest digital cinema technology."><img src="img/chimaeric-white.png"></a>
 							</div>
 						</div>
 					</div>
 					<div class="span4">
 						<div class="company_wrapper">
 							<div class="company" id="peoplekit">
-								<a href="http://www.peoplekit.co" class="tool" data-toggle="tooltip" title="A time-effective and hassle-free quarterly subscription service for leaders that helps to grow your team and employees."><img src="img/peoplekit.png"></a>
+								<a href="http://www.peoplekit.co" target="_blank" class="tool" data-toggle="tooltip" title="A time-effective and hassle-free quarterly subscription service for leaders that helps to grow your team and employees."><img src="img/peoplekit.png"></a>
 							</div>
 						</div>
 					</div>
