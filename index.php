@@ -178,8 +178,8 @@
 					</div>
 					<div class="span4">
 						<div class="company_wrapper">
-							<div class="company" id="stockcastit">
-								<a href="http://www.stockcast.it" class="tool" data-toggle="tooltip" title="Uses machine learning and natural language processing technology to analyze Internet data, giving clear, concise, and actionable insights into what people feel about financial markets."><img src="img/stockcastit-white.png"></a>
+							<div class="company" id="peoplekit">
+								<a href="http://www.peoplekit.co" class="tool" data-toggle="tooltip" title="A time-effective and hassle-free quarterly subscription service for leaders that helps to grow your team and employees."><img src="img/peoplekit.png"></a>
 							</div>
 						</div>
 					</div>
