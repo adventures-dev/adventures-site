@@ -28,13 +28,21 @@
   
   <body>
   
+<<<<<<< HEAD
 <!-- Modal -->
+=======
+  	<!-- Modal -->
+>>>>>>> FETCH_HEAD
 <div class="modal fade" id="criteria" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<<<<<<< HEAD
         <h4 class="modal-title" id="myModalLabel">Acquisition Criteria</h4>
+=======
+        <h4 class="modal-title" id="myModalLabel">Acquisition Criteria </h4>
+>>>>>>> FETCH_HEAD
       </div>
       <div class="modal-body">
         <ol>
@@ -52,7 +60,11 @@
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
   
+<<<<<<< HEAD
   <?php include("intern.php");?>
+=======
+  
+>>>>>>> FETCH_HEAD
   
 	<div id="wrap">
 		<div id="top_background">
@@ -80,7 +92,11 @@
 					<div class="span2 offset1">
 						<div class="feature_wrapper">
 							<div class="feature" id="feature1">
+<<<<<<< HEAD
 								<a href="http://www.inc.com/profile/adventures"><img src="img/hirepower.png"></a>
+=======
+								<a target="_blank" href="http://www.inc.com/profile/adventures"><img src="img/inc.png"></a>
+>>>>>>> FETCH_HEAD
 							</div>
 						</div>
 					</div>
@@ -88,28 +104,44 @@
 					<div class="span2">
 						<div class="feature_wrapper">
 							<div class="feature" id="feature2">
+<<<<<<< HEAD
 								<a href="http://www.forbes.com/sites/brentbeshore/"><img src="img/forbes.png"></a>
+=======
+								<a target="_blank" href="http://www.forbes.com/sites/brentbeshore/"><img src="img/forbes.png"></a>
+>>>>>>> FETCH_HEAD
 							</div>
 						</div>
 					</div>
 					<div class="span2">
 						<div class="feature_wrapper">
 							<div class="feature" id="feature3">
+<<<<<<< HEAD
 								<a href="http://www.mochamber.com/mx/hm.asp?id=112111fasttrackadventures"><img src="img/missouricc.png"></a>
+=======
+								<a target="_blank" href="http://www.mochamber.com/mx/hm.asp?id=112111fasttrackadventures"><img src="img/missouricc.png"></a>
+>>>>>>> FETCH_HEAD
 							</div>
 						</div>
 					</div>
 					<div class="span2">
 						<div class="feature_wrapper">
 							<div class="feature" id="feature4">
+<<<<<<< HEAD
 								<a href="http://articles.washingtonpost.com/2012-05-08/business/35457018_1_business-books-innovation-vacation"><img src="img/washingtonpost.png"></a>
+=======
+								<a target="_blank" href="http://articles.washingtonpost.com/2012-05-08/business/35457018_1_business-books-innovation-vacation"><img src="img/washingtonpost.png"></a>
+>>>>>>> FETCH_HEAD
 							</div>
 						</div>
 					</div>
 					<div class="span2">
 						<div class="feature_wrapper">
 							<div class="feature" id="feature5">
+<<<<<<< HEAD
 								<a href="http://www.vh1.com/shows/events/do_something_awards/2011/facebook/"><img src="img/dosomething.png"></a>
+=======
+								<a target="_blank" href="http://www.vh1.com/shows/events/do_something_awards/2011/facebook/"><img src="img/dosomething.png"></a>
+>>>>>>> FETCH_HEAD
 							</div>
 						</div>
 					</div>
@@ -140,7 +172,7 @@
 						<div class="company_wrapper">
 							
 							<div class="company" id="agencypost">
-								<a href="http://www.agencypost.com" class="tool" data-toggle="tooltip" title="The Agency Post is an interactive publication for ad, PR and marketing professionals. All content is written by subject matter experts, consumable in under five minutes and customized to be applicable to your daily life in the marketing world."><img src="img/agencypost-white.png"></a>
+								<a href="http://www.agencypost.com" target="_blank" class="tool" data-toggle="tooltip" title="The Agency Post is an interactive publication for ad, PR and marketing professionals. All content is written by subject matter experts, consumable in under five minutes and customized to be applicable to your daily life in the marketing world."><img src="img/agencypost-white.png"></a>
 							</div>
 						</div>
 						
@@ -148,14 +180,14 @@
 					<div class="span4">
 						<div class="company_wrapper">
 							<div class="company" id="remarkables">
-								<a href="http://www.theremarkabl.es" class="tool" data-toggle="tooltip" title="Enables communities to have life-changing moments by connecting them with remarkable people."><img src="img/remarkables-white.png"></a>
+								<a href="http://www.theremarkabl.es" target="_blank" class="tool" data-toggle="tooltip" title="Enables communities to have life-changing moments by connecting them with remarkable people."><img src="img/remarkables-white.png"></a>
 							</div>
 						</div>
 					</div>
 					<div class="span4">
 						<div class="company_wrapper" >
 							<div class="company" id="influenceandco">
-								<a href="http://www.influenceandco.com" class="tool" data-toggle="tooltip" title="Curates expert content for the nation's largest online publishers."><img src="img/influenceandco-white.png"></a>
+								<a href="http://www.influenceandco.com" target="_blank" class="tool" data-toggle="tooltip" title="Curates expert content for the nation's largest online publishers."><img src="img/influenceandco-white.png"></a>
 							</div>
 						</div>
 					</div>
@@ -164,7 +196,7 @@
 					<div class="span4">
 						<div class="company_wrapper">
 							<div class="company" id="mediacross">
-								<a href="http://www.mediacross.com" class="tool" data-toggle="tooltip" title="Uses propriety methods to help the U.S. military, state governments, businesses and organizations advertise, market, and recruit."><img src="img/mediacross-white.png"></a>
+								<a href="http://www.mediacross.com" target="_blank" class="tool" data-toggle="tooltip" title="Uses propriety methods to help the U.S. military, state governments, businesses and organizations advertise, market, and recruit."><img src="img/mediacross-white.png"></a>
 							</div>
 						</div>
 						
@@ -172,14 +204,14 @@
 					<div class="span4">
 						<div class="company_wrapper">
 							<div class="company" id="chimaeric">
-								<a href="http://www.chimaeric.com" class="tool" data-toggle="tooltip" title="Makes stories come to life by cultivating visually stunning and emotionally engaging works using the latest digital cinema technology."><img src="img/chimaeric-white.png"></a>
+								<a href="http://www.chimaeric.com" target="_blank" class="tool" data-toggle="tooltip" title="Makes stories come to life by cultivating visually stunning and emotionally engaging works using the latest digital cinema technology."><img src="img/chimaeric-white.png"></a>
 							</div>
 						</div>
 					</div>
 					<div class="span4">
 						<div class="company_wrapper">
-							<div class="company" id="stockcastit">
-								<a href="http://www.stockcast.it" class="tool" data-toggle="tooltip" title="Uses machine learning and natural language processing technology to analyze Internet data, giving clear, concise, and actionable insights into what people feel about financial markets."><img src="img/stockcastit-white.png"></a>
+							<div class="company" id="peoplekit">
+								<a href="http://www.peoplekit.co" target="_blank" class="tool" data-toggle="tooltip" title="A time-effective and hassle-free quarterly subscription service for leaders that helps to grow your team and employees."><img src="img/peoplekit.png"></a>
 							</div>
 						</div>
 					</div>
@@ -261,7 +293,11 @@
 									<div class="row-fluid">
 										<div class="span6">
 										
+<<<<<<< HEAD
 										<p id="contact_desc">We're always on the lookout for great people and worthwhile opportunities. <a href="#criteria" data-toggle="modal" data-target="#criteria">Here's (link to pop up) our criteria for acquisitions.</a></p>
+=======
+										<p id="contact_desc">We're always on the lookout for great people and worthwhile opportunities. <a href="#criteria" data-toggle="modal" data-target="#criteria">Here's our criteria for acquisitions.</a></p>
+>>>>>>> FETCH_HEAD
 			
 											
 										</div>

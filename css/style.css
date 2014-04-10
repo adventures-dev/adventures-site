@@ -284,13 +284,15 @@ font-size: 2em;
 }
 
 /* slider styles */
-
+.company#peoplekit{
+	width: 50px !important;
+}
 #dta a img { margin-top: 120px; }
 #loi a img { margin-top: 140px; }
 #remarkables a img { margin-top: 80px; }
 #museao a img { margin-top: 161px; }
 #chimaeric a img { margin-top: 100px; }
-#stockcastit a img { margin-top: 170px; }
+#peoplekit a img {}
 #zapier a img { margin-top: 100px; }
 
 /* bootstrap overrides */
