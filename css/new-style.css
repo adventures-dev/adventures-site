@@ -68,11 +68,7 @@ html, body {height: 100%;}
 	height: 1000px;
 	position: absolute;
 	top:2420px;
-<<<<<<< HEAD
 	background: white !important;
-=======
-	background: whitesmoke;
->>>>>>> FETCH_HEAD
 	width: 100%;
 	z-index: 2;
 
@@ -102,11 +98,7 @@ html, body {height: 100%;}
 }
 #feature1{
 	
-<<<<<<< HEAD
-	margin-top: 115px;
-=======
 	margin-top: 90px;
->>>>>>> FETCH_HEAD
 
 	
 }
@@ -183,9 +175,8 @@ html, body {height: 100%;}
 #mediacross{
 	margin-top: 30px;
 }
-#peoplekit{
-	width: 140px;
-	margin-top: -10px;
+#stockcastit{
+	margin-top: 40px;
 }
 
 #myfort{
