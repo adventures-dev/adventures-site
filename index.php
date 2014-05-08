@@ -28,6 +28,9 @@
   
   <body>
   
+
+  
+	<div id="wrap">
 <!-- Modal -->
 <div class="modal fade" id="criteria" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -52,9 +55,9 @@
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
   
-  <?php include("intern.php");?>
-  
-	<div id="wrap">
+  <?php include("intern.php");?>	
+	
+	
 		<div id="top_background">
 			<div id="top_overlay">
 				<div class="container">
@@ -208,7 +211,6 @@
 				</div>
 				</div>
 			</div>
-		</div>
 		<div id="section_four">
 			<div class="container">
 					<div class="row-fluid">
@@ -261,7 +263,7 @@
 									<div class="row-fluid">
 										<div class="span6">
 										
-										<p id="contact_desc">We're always on the lookout for great people and worthwhile opportunities. <a href="#criteria" data-toggle="modal" data-target="#criteria">Here's (link to pop up) our criteria for acquisitions.</a></p>
+										<p id="contact_desc">We're always on the lookout for great people and worthwhile opportunities. <a href="#criteria" data-toggle="modal" data-target="#criteria">Here's our criteria for acquisitions.</a></p>
 			
 											
 										</div>
@@ -307,7 +309,6 @@
 		</div>
 		
 	</div>
-	
 	
 	
     <script src="js/jquery.js" type="text/javascript"></script>
