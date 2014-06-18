@@ -220,29 +220,18 @@
 					</div>
 					</div><br>
 					<div class="row-fluid">
-						<div class="span4">
+						<div class="span6">
 							<div class="job_company">
 								Influence & Co.
 							</div>
 							<div class="job_title">
-								Account Strategist (Full Time)
+								Director of Human Resources							
 							</div>
 							<div class="job_more">
-								<a href="http://offers.influenceandco.com/account-strategist-position" class="job_button" target="_blank">More info</a>
-							</div>
-						</div>
-						<div class="span4">
-							<div class="job_company">
-								Influence & Co.
-							</div>
-							<div class="job_title">
-								Business Development Specialist Position (Full Time)							
-							</div>
-							<div class="job_more">
-								<a href="http://offers.influenceandco.com/business-development-specialist-position" class="job_button" target="_blank">More info</a>
+								<a href="http://offers.influenceandco.com/director-of-human-resources" class="job_button" target="_blank">More info</a>
 							</div>
 						</div>						
-						<div class="span4">
+						<div class="span6">
 							<div class="job_company">
 								adventur.es
 							</div>
