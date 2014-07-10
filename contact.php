@@ -1,30 +1,30 @@
 <?php
-	$name = $_POST['name'];
-	$phone = $_POST['phone'];
-	$email = $_POST['email'];
+
+	$name = $_POST["name"];
+	$email = $_POST["email"];
+	$phone = $_POST["phone"];
 	$message = $_POST['message'];
 	
+	if($name && $email){
+		$to = "b@adventur.es";
+	    $subject = "New contact from ".$name." at adventur.es";
+		$body = "<h1>New message from ".$name."</h1>
+	    		<p>Email: ".$email."</p>
+	    		<p>Phone: ".$phone."</p>
+	    		<p>Message: ".$message."</p>";
+	    	
+				    
+		$headers  = 'MIME-Version: 1.0' . "\r\n";
+		$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+		$headers .= 'From: '.$name.' <noreply@adventur.es>' . "\r\n";
+		$headers .= "Reply-To: noreply@adventur.es" . "\r\n";;
+		
+		mail($to, $subject, $body, $headers);
 
-    $from = "info@stockcast.it";
-    $subject = "Contact form from adventur.es site";
-    $body = "<h1>New message from ".$name."</h1>
-    		<p>email: ".$email."</p>
-    		<p>phone: ".$phone."</p>
-
-    		<p>Message: ".$message."</p>";
-    	
-
-    include_once('ses.php');
-    $con=new SimpleEmailService("AKIAIMMFQYYH2ARYVZUA","np46qEKPdUWjrDmakBmmPrpVDKmssGVLBiB7IBQ7");
-    $con->listVerifiedEmailAddresses();
-
-    $m = new SimpleEmailServiceMessage();
-    $m->addTo("b@adventur.es");
-    $m->setFrom($from);
-    $m->setSubject($subject);
-    $m->setMessageFromString(null, $body);
-    $con->sendEmail($m);
-
-
-    echo true;
+		echo true;
+	}else{
+		echo "Something went wrong.  Please try again later.";
+	}
+	    
+    
 ?>
