@@ -222,24 +222,24 @@
 					<div class="row-fluid">
 						<div class="span6">
 							<div class="job_company">
-								Influence & Co.
+								MediaCross
 							</div>
 							<div class="job_title">
-								Director of Human Resources							
+								Lead Strategist						
 							</div>
 							<div class="job_more">
-								<a href="http://offers.influenceandco.com/director-of-human-resources" class="job_button" target="_blank">More info</a>
+								<a href="http://www.mediacross.com/leadstrategist/" class="job_button" target="_blank">More info</a>
 							</div>
 						</div>						
 						<div class="span6">
 							<div class="job_company">
-								adventur.es
+								MediaCross
 							</div>
 							<div class="job_title">
-								Accounting Intern							
+								Physician Recruiter						
 							</div>
 							<div class="job_more">
-								<a href="#intern" data-toggle="modal" data-target="#intern" class="job_button">More info</a>
+								<a href="http://www.mediacross.com/physician-recruiter/" class="job_button">More info</a>
 							</div>
 						</div>					
 					</div>
