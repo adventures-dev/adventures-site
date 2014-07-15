@@ -67,7 +67,7 @@ html, body {height: 100%;}
 #section_four{
 	height: 1000px;
 	position: absolute;
-	top:2420px;
+	top:2620px;
 	background: white !important;
 	width: 100%;
 	z-index: 2;
@@ -194,7 +194,7 @@ html, body {height: 100%;}
     background-repeat: repeat-x;
 	height: 700px;
 	overflow: hidden;
-	top:2120px;
+	top:2020px;
 	z-index: 2;
 	box-shadow: 10px 10px 10px 20px rgba(0,0,0,0.7);
 	width: 100%;
@@ -422,15 +422,15 @@ hr{
 }
 
 #section_two{
-	height: 1000px;
+	height: 1500px;
 }
 
 #myfort{
-	top:2420px;
+	top:2820px;
 }
 
 #section_four{
-	top:3120px;
+	top:3420px;
 	height: 700px;
 }
 #contact_desc, #contact-form{
