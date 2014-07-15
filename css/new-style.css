@@ -125,7 +125,7 @@ html, body {height: 100%;}
 
 }
 #section_two{
-	height: 500px;
+	height: 900px;
 	position: absolute;
 	top:1220px;
 	background-color: #101010;
@@ -175,17 +175,26 @@ html, body {height: 100%;}
 #mediacross{
 	margin-top: 30px;
 }
-#stockcastit{
-	margin-top: 40px;
+#copymint{
+	margin-top: 30px;
 }
+#peoplkit{
+	margin-top: 0px;
+}
+#peoplkit img{
+	width: 100px !important;
 
+}
+#9thandelm{
+	margin-top: 30px;
+}
 #myfort{
 	background-color: black;
     background-image: url("../img/picture1.jpg");
     background-repeat: repeat-x;
 	height: 700px;
 	overflow: hidden;
-	top:1720px;
+	top:2120px;
 	z-index: 2;
 	box-shadow: 10px 10px 10px 20px rgba(0,0,0,0.7);
 	width: 100%;
