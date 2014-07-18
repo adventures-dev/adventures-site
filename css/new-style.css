@@ -67,7 +67,7 @@ html, body {height: 100%;}
 #section_four{
 	height: 1000px;
 	position: absolute;
-	top:2620px;
+	top:2460px;
 	background: white !important;
 	width: 100%;
 	z-index: 2;
@@ -178,11 +178,13 @@ html, body {height: 100%;}
 #copymint{
 	margin-top: 30px;
 }
-#peoplkit{
-	margin-top: 0px;
+#peoplekit{
+	margin-top: -30px;
+		width: 120px;
+
 }
-#peoplkit img{
-	width: 100px !important;
+#peoplekit img{
+	width: 120px;
 
 }
 #9thandelm{
@@ -194,7 +196,7 @@ html, body {height: 100%;}
     background-repeat: repeat-x;
 	height: 700px;
 	overflow: hidden;
-	top:2020px;
+	top:1860px;
 	z-index: 2;
 	box-shadow: 10px 10px 10px 20px rgba(0,0,0,0.7);
 	width: 100%;
@@ -426,11 +428,11 @@ hr{
 }
 
 #myfort{
-	top:2820px;
+	top:2720px;
 }
 
 #section_four{
-	top:3420px;
+	top:3320px;
 	height: 700px;
 }
 #contact_desc, #contact-form{
@@ -439,6 +441,9 @@ hr{
 }
 #contact_desc{
 	font-size: 14pt;
+}
+#peoplekit{
+	margin-top: 0px;
 }
 }
 

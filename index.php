@@ -55,7 +55,6 @@
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
   
-  <?php include("intern.php");?>	
 	
 	
 		<div id="top_background">
@@ -273,11 +272,9 @@
 											
 										</div>
 										<div class="span6">
-							  <script type="text/javascript" src="js/jquery.validate.min.js"></script>
 							  <form action="" method="post" id="contact-form" novalidate="novalidate" >
 			                    <div id="form-content">
 			                        <fieldset>
-			                            <div class="fieldgroup" id="error"></div>
 			                      
 			                              <div class="fieldgroup">
 			                                <input id="name" type="text" name="name" class="input-block-level" placeholder="name">
@@ -294,7 +291,7 @@
 			                                <div class="fieldgroup">
 			                                <textarea class="input-block-level" id="message" name="message" placeholder="message"></textarea>
 			                            </div>
-			                            
+			                            <div class="fieldgroup" id="error"></div>
 			                            <div class="fieldgroup">
 			                                <!--<label>By clicking register you agree to our <a target="_blank" href="/policy">policy</a>.</label>-->
 			                                <input type="submit" value="send" class="submit btn">
@@ -316,7 +313,7 @@
 	</div>
 	
 	
-    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
     <script src="js/jquery.validate.min.js" type="text/javascript"></script>
 	<script src="js/scrolling.js" type="text/javascript"></script>
 	<script src="js/bootstrap.js" type="text/javascript"></script>
@@ -402,7 +399,7 @@ $("#contact-form").validate({
         var email = document.getElementById('email').value;
         var name = document.getElementById('name').value;
         var phone = document.getElementById('phone').value;
-         var message = document.getElementById('message').value;
+        var message = document.getElementById('message').value;
 
         var data = {
             email: email,
@@ -412,19 +409,20 @@ $("#contact-form").validate({
 
         };
         
+         $("#error").html("loading...");
+        
         $.ajax({
             type: "POST",
             url: "contact.php",
             data: data,
             success: function (res) {
-
+				$("#error").html("");
                 if (res == true) {
-                
+                	
                 	$("#form-content").html("<p>Thanks!  We will get back to you shortly!</p>");
 
                 } else {
-                    console.log(res);
-                    $("#error").append('<font style="color:red;">' + res + '</font>');
+                    $("#error").html(res);
                 }
 
             }
