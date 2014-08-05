@@ -187,17 +187,24 @@
 					</div>
 				</div>
 				<div class="row-fluid">
-					<div class="span6">
+					<div class="span4">
 						<div class="company_wrapper">
 							<div class="company" id="peoplekit">
 								<a href="http://www.peoplekit.co" class="tool" data-toggle="tooltip" title="PeopleKit delivers tools to support your team in working better together and increasing your bottom line."><img src="img/peoplekit.png"></a>
 							</div>
 						</div>
 					</div>
-					<div class="span6">
+					<div class="span4">
 						<div class="company_wrapper">
 							<div class="company" id="9thandelm">
 								<a href="http://www.9thandelm.com" class="tool" data-toggle="tooltip" title=""><img src="img/9thandelm.png"></a>
+							</div>
+						</div>
+					</div>
+					<div class="span4">
+						<div class="company_wrapper">
+							<div class="company" id="museao">
+								<a href="http://www.museao.com" class="tool" data-toggle="tooltip" title="Museao is the premier special event venue located in the heart of Columbia, MO. Our modern flair and especially unique design sets us apart as an unforgettable destination, sure to awe your guests from the moment they arrive until the get-away car is whisking you away at the end of the evening."><img src="img/museao_white.png"></a>
 							</div>
 						</div>
 					</div>
