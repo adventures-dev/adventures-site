@@ -235,7 +235,7 @@
 					</div>
 					</div><br>
 					<div class="row-fluid">
-						<div class="span6">
+						<div class="span4">
 							<div class="job_company">
 								MediaCross
 							</div>
@@ -246,17 +246,28 @@
 								<a href="http://www.mediacross.com/leadstrategist/" class="job_button" target="_blank">More info</a>
 							</div>
 						</div>						
-						<div class="span6">
+						<div class="span4">
 							<div class="job_company">
-								MediaCross
+								Influence & Co.
 							</div>
 							<div class="job_title">
-								Physician Recruiter						
+								Business Strategist					
 							</div>
 							<div class="job_more">
-								<a href="http://www.mediacross.com/physician-recruiter/" class="job_button">More info</a>
+								<a href="http://offers.influenceandco.com/business-development-specialist-position" target="_blank" class="job_button">More info</a>
 							</div>
-						</div>					
+						</div>	
+						<div class="span4">
+							<div class="job_company">
+								Influence & Co.
+							</div>
+							<div class="job_title">
+								Assistant Account Strategist				
+							</div>
+							<div class="job_more">
+								<a href="http://offers.influenceandco.com/assistant-account-strategist" target="_blank" class="job_button">More info</a>
+							</div>
+						</div>				
 					</div>
 					<div class="row-fluid">
 					<div class="span8 offset2">
